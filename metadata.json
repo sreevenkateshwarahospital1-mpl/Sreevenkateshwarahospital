@@ -1,0 +1,8 @@
+{
+  "name": "Sree Venkateswara Heart Hospital",
+  "description": "Premium Cardiology & Super-Speciality Care in Madanapalle. 24/7 Advanced Heart Care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
