@@ -81,7 +81,7 @@ export default function ChiefCardiologist() {
               <div className="absolute -inset-4 bg-brand-red/5 rounded-full blur-2xl" />
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full border-8 border-slate-50 p-1.5 bg-white shadow-xl overflow-hidden group">
                 <img 
-                  src="https://res.cloudinary.com/dforgkrp5/image/upload/v1778689495/Screenshot_2026-05-13_215229_fbjsbu.png" 
+                  src="https://res.cloudinary.com/dforgkrp5/image/upload/v1778689495/Screenshot_2026-05-13_215229_fbjsbu.png" loading="lazy" 
                   alt="DR. S. B. KISHORE" 
                   className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                   referrerPolicy="no-referrer"

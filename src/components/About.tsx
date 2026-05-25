@@ -43,7 +43,7 @@ export default function About() {
           >
             <div className="relative rounded-[3rem] overflow-hidden shadow-3xl">
                <img 
-                 src="https://res.cloudinary.com/dforgkrp5/image/upload/v1779018749/madanapalli_city_img_n1vbxx.png" 
+                 src="https://res.cloudinary.com/dforgkrp5/image/upload/v1779018749/madanapalli_city_img_n1vbxx.png" loading="lazy" 
                  alt="Hospital location in Madanapalle" 
                  className="w-full h-auto block"
                  referrerPolicy="no-referrer"

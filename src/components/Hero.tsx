@@ -81,7 +81,7 @@ export default function Hero() {
         >
            <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl bg-slate-50 max-h-[350px] lg:max-h-[420px]">
               <img 
-                src="https://res.cloudinary.com/dforgkrp5/image/upload/v1778687522/sree_venkateshwara_hospital_building_ve2smp.jpg" 
+                src="https://res.cloudinary.com/dforgkrp5/image/upload/v1778687522/sree_venkateshwara_hospital_building_ve2smp.jpg" fetchPriority="high" 
                 alt="Sree Venkateswara Hospital Building"
                 className="w-full h-full object-cover block"
                 referrerPolicy="no-referrer"
