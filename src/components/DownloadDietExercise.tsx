@@ -190,8 +190,8 @@ export default function DownloadDietExercise() {
 
   const handleDownload = (type: "diet" | "exercise") => {
     const url = type === "diet"
-      ? "https://drive.google.com/file/d/12jwgyoI2pgZNJ-cyOaF4xlgCWJHOkPVY/view?usp=sharing"
-      : "https://drive.google.com/file/d/1ssdoQaXOkqnSqWSliR4G5XLVpfG9pSi7/view?usp=sharing";
+      ? "https://drive.google.com/file/d/1ssdoQaXOkqnSqWSliR4G5XLVpfG9pSi7/view?usp=sharing"
+      : "https://drive.google.com/file/d/12jwgyoI2pgZNJ-cyOaF4xlgCWJHOkPVY/view?usp=sharing";
     window.open(url, "_blank");
   };
 
