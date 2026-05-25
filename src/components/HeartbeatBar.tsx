@@ -27,16 +27,16 @@ export default function HeartbeatBar() {
       {/* Heart Video Center - Cropped to remove vignette */}
       <div className="relative z-10 h-full aspect-square md:aspect-video flex items-center justify-center overflow-hidden">
         <div className="scale-125 md:scale-110 w-full h-full flex items-center justify-center">
-          <iframe
-            src="https://player.cloudinary.com/embed/?cloud_name=dforgkrp5&public_id=heart_beat_1_cosm1e&autoplay=true&loop=true&muted=true&controls=false"
-            width="640"
-            height="360" 
-            className="h-full w-auto pointer-events-none"
+          <video
+            src="https://res.cloudinary.com/dforgkrp5/video/upload/f_auto,q_auto/v1778989800/heart_beat_1_cosm1e.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+            className="h-full w-auto pointer-events-none object-cover"
             style={{ height: '100%', width: 'auto', aspectRatio: '640 / 360' }}
-            allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-            allowFullScreen
-            frameBorder="0"
-          ></iframe>
+          />
         </div>
       </div>
 

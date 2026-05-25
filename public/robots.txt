@@ -1,0 +1,8 @@
+# Robots.txt for Sree Venkateswara Heart Hospital
+# Optimized for search engines like Googlebot, Bingbot, Yahoo, and DuckDuckBot
+
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://sreevenkateswarahospital.in/sitemap.xml
